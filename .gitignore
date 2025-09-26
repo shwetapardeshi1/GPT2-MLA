@@ -1,0 +1,36 @@
+# Results and output directories
+results/
+main/results/
+**/results/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints and outputs
+*.bin
+*.safetensors
+*.pt
+*.pth
+checkpoints/
+outputs/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store

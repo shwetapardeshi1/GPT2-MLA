@@ -1,0 +1,47 @@
+{
+  "LAMBADA": {
+    "acc": 0.25984863186493307,
+    "target_ppl": 18.867675017798394,
+    "full_ppl": 72.16825214202491,
+    "n": 5153,
+    "sec": 161.56436944007874
+  },
+  "CBT-CN": {
+    "acc": 0.654,
+    "n": 2500,
+    "sec": 269.18119835853577
+  },
+  "CBT-NE": {
+    "acc": 0.3576,
+    "n": 2500,
+    "sec": 265.1014635562897
+  },
+  "WikiText2": {
+    "nll": 3.379531500996023,
+    "ppl": 29.35701415908812,
+    "tok": 282348,
+    "sec": 11.002440929412842
+  },
+  "WikiText103": {
+    "nll": 3.379531500996023,
+    "ppl": 29.35701415908812,
+    "tok": 282348,
+    "sec": 9.164846181869507
+  },
+  "PTB": {
+    "skipped": true,
+    "note": "HF script dataset often disabled (ptb_text_only.py)"
+  },
+  "enwiki8": {
+    "skipped": true,
+    "note": "HF script dataset often disabled (enwik8.py)"
+  },
+  "text8": {
+    "skipped": true,
+    "note": "Not currently available on Hub under 'text8'"
+  },
+  "1BW": {
+    "skipped": true,
+    "note": "HF script dataset often disabled (lm1b.py)"
+  }
+}
